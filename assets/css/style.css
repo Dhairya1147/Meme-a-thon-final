@@ -608,7 +608,7 @@ img{
     margin-left: 20px;
    }
    .swiper{
-    width: 373px;
+    width: 333px;
     order: 0;
    }
 }
@@ -621,13 +621,25 @@ img{
 
 @media screen and (max-width: 360px){
   .swiper{
-    width: 280px;
+    width: 284px;
   }
 }
 
 @media screen and (max-width: 365px){
   .swiper{
-    width: 264px;
+    width: 284px;
+  }
+}
+
+@media screen and (max-width: 282px){
+  .swiper{
+    width: 265px;
+  }
+  .swiper-slide video{
+    width: 80%;
+  }
+  .swiper-slide img{
+    width: 95%;
   }
 }
 
