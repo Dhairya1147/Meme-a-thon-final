@@ -331,6 +331,29 @@ img{
   justify-self: center;
 }
 
+/*========== SWIPERJS SLIDER ==========*/
+.swiper {
+  width: 444px;
+  /* height: 70%; */
+  order: -1;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /*========== SERVICES ==========*/
 .services__container{
   row-gap: 2.5rem;

@@ -11,6 +11,9 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="icon" href="./assets/img/meme-a-thon_logo_e-cell.png" type="image/icon type">
 
+        <!--========== SWIPER JS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
         <title>MEME-A-THON E-CELL</title>
     </head>
     <body>
@@ -67,7 +70,21 @@
                         <p class="about__description">opportunity for participants to unleash their creative prowess and craft amusing memes that encapsulate the essence of startups and entrepreneurship. This competition will be held online on the official social media handles of E-Cell RGPV. Memes created by participants can encapsulate humorous situations, depict everyday trials faced by startups, or highlight the distinct aspects of building a business from scratch</p>
                         <!-- <a href="#" class="button">Explore history</a> -->
                     </div>
-                    <video autoplay loop muted preload="auto" class="about__img" src="./assets/img/Ranveer-Allahbadia-Reaction.mp4"></video>
+                    <!-- <video autoplay loop muted preload="auto" class="about__img" src="./assets/img/Ranveer-Allahbadia-Reaction.mp4"></video> -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"> <img src="./assets/img/meme-a-thon_logo_e-cell.png" alt=""> </div>
+                          <div class="swiper-slide"><img src="./assets/img/samajh-rahe-ho-fotor-2023071702018.png" alt=""></div>
+                          <div class="swiper-slide"><video autoplay loop muted preload="auto" class="about__img" src="./assets/img/Ranveer-Allahbadia-Reaction.mp4"></video></div>
+                          <div class="swiper-slide">Slide 4</div>
+                          <div class="swiper-slide">Slide 5</div>
+                          <div class="swiper-slide">Slide 6</div>
+                          <div class="swiper-slide">Slide 7</div>
+                          <div class="swiper-slide">Slide 8</div>
+                          <div class="swiper-slide">Slide 9</div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                      </div>
 
                     <!-- <img src="assets/img/about.jpg" alt="" class="about__img"> -->
 
@@ -241,5 +258,20 @@
 
         <!--========== MAIN JS ==========-->
         <script src="assets/js/main.js"></script>
+
+        <!--========== SWIPER JS ==========-->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+              pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+              },
+              autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            });
+          </script>
     </body>
 </html>
