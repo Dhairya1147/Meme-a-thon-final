@@ -341,7 +341,7 @@ img{
 }
 
 .prize {
-  width: 280px;
+  width: 650px;
   border-radius: .5rem;
   display: flex;
   justify-self: center;
@@ -516,7 +516,7 @@ img{
     order: -1;
   }
 .prize{
-  width: 444px;
+  width: 650px;
     order: -1;
     /* margin-left: 19.5em; */
     margin-left: auto;
