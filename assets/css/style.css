@@ -625,6 +625,12 @@ img{
   }
 }
 
+@media screen and (max-width: 377px){
+  .swiper{
+    width: 344px;
+  }
+}
+
 @media screen and (min-width: 768px){
   body{
     margin: 0;
