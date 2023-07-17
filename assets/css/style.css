@@ -613,23 +613,25 @@ img{
    }
 }
 
+@media screen and (max-width: 377px){
+  .swiper{
+    width: 344px;
+  }
+}
+
 @media screen and (max-width: 360px){
   .swiper{
     width: 280px;
   }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 365px){
   .swiper{
     width: 264px;
   }
 }
 
-@media screen and (max-width: 377px){
-  .swiper{
-    width: 344px;
-  }
-}
+
 
 @media screen and (min-width: 768px){
   body{
