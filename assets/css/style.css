@@ -116,6 +116,7 @@ img{
 
 .section-title, .section-subtitle{
   text-align: center;
+  
 }
 
 .section-title{
@@ -273,7 +274,7 @@ img{
 .home__img{
   width: 300px;
   justify-self: center;
-  margin-left: 30px;
+  margin-left: 0px;
   margin-top: 20px;
   filter: drop-shadow(5px 5px 10px #70707077)
 }
@@ -319,6 +320,7 @@ img{
 
 .services__content{
   text-align: center;
+  margin-bottom: 1.7em;
 }
 
 .services__img{
@@ -338,6 +340,12 @@ img{
   padding: 0 1.5rem;
 }
 
+.prize {
+  width: 280px;
+  border-radius: .5rem;
+  /* justify-self: center; */
+  margin-left:2.2em;
+}
 /*========== MENU ==========*/
 .menu__container{
   grid-template-columns: repeat(2, 1fr);
@@ -504,7 +512,11 @@ img{
     width: 444px;
     order: -1;
   }
-
+.prize{
+  width: 444px;
+    order: -1;
+    margin-left: 19.5em;
+}
   .contact__container{
     grid-template-columns: 1.75fr 1fr;
     align-items: center;
