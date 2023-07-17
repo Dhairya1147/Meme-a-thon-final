@@ -518,7 +518,7 @@ img{
 .prize{
   width: 444px;
     order: -1;
-    margin-left: 19.5em;
+    /* margin-left: 19.5em; */
     margin-left: auto;
     margin-right: auto;
 }
